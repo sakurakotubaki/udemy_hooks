@@ -48,3 +48,8 @@ flutter pub add \
   json_annotation \
   --dev json_serializable
 ```
+
+自動生成のコマンド
+```sh
+flutter pub run build_runner watch --delete-conflicting-outputs
+```
